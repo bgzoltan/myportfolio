@@ -1,0 +1,21 @@
+$siteTitleColor: red;
+$siteTitleSize: 40px;
+$linkColor: whitesmoke;
+
+header {
+     width:100%;
+     padding:0px;
+}
+
+
+.siteTitle {
+     color: red;
+     font-size: $siteTitleSize;
+     font-weight: 700;
+     padding: 20px;
+     text-align: center;
+};
+
+a {
+     color: $linkColor;
+}

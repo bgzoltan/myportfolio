@@ -1,0 +1,23 @@
+$footerColor: whitesmoke;
+$footerBackgroundColor: rgb(5, 54, 54);
+$footerFontSize: 22px;
+$linkColor: whitesmoke;
+
+
+.container{
+     display: flex;
+     justify-content: center;
+     width:100vw;
+     background-color: $footerBackgroundColor;
+     }
+
+.created {
+     color:$footerColor;
+    padding:10px;
+    
+    
+}
+
+ 
+
+ 

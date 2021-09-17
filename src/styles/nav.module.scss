@@ -1,0 +1,36 @@
+$menuFontSize:26px;
+$menuFontWeight:700;
+$menuBackgroundColor:  rgb(5, 54, 54);
+
+.navBar{
+     list-style: none;
+     display: flex;
+     justify-content: space-evenly;
+     width:100vw;
+     height:50px;
+     flex-direction: row;
+     align-items: center;
+     background-color: $menuBackgroundColor;
+     margin:0px;
+     padding:0px;
+
+
+}
+
+a {
+     line-height: 50px;
+     margin: 0px;
+     font-weight: $menuFontWeight;
+     font-size: $menuFontSize;
+     text-decoration: none;
+}
+
+a:hover {
+     color:red;
+}
+
+.activeMenu {
+     color:red;
+}
+
+
