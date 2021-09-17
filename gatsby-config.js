@@ -1,21 +1,24 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Software Development Portfolio Site`,
+    description: `You can see here my frontend software development projects coded with HTML-5, Javascript, React, Gatsby CSS/SASS`,
+    author: `Mr Zoltán Bagdány`,
+    siteUrl: `https://frontenddeveloper.hu`,
+    copyright: `© 2021`,
   },
   plugins: [
     `gatsby-plugin-sass`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: `blogs`,
+        path: `${__dirname}/src/blog`,
       },
     },
+    `gatsby-plugin-mdx`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-image`,
+
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
